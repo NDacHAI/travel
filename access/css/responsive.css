@@ -1,0 +1,24 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    #header__background {
+        display: none;
+    }
+    .header__nav {
+        display: none;
+    }
+    .tour-countdow {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 739px) and (max-width: 1023px) {
+    
+}
+
+@media (max-width: 739px) {
+    .tour-img {
+        padding-top: 100%;
+    }
+}
