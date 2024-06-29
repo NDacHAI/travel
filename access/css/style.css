@@ -688,7 +688,6 @@
 
 .banner-fullsc {
     position: relative;
-    background-image: url(/access/img/banner-full-sc.jpg);
     width: 100%;
     padding-top: 17%;
     background-position: center;
@@ -1102,7 +1101,6 @@
 }
 
 .footer__background {
-    background-image: url(/access/img/backr-footer.jpg);
     width: 100%;
     padding-top: 45%;
     background-position: center;
