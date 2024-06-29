@@ -1,11 +1,19 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
-    #header__background {
-        display: none;
-    }
+
     .header__nav {
         display: none;
     }
+
+    .header__logo-img {
+        position: relative;
+        top: 50%;
+    }
+
+    .wrap__content-category {
+        display: none;
+    }
+
     .tour-countdow {
         bottom: 0;
         left: 0;
@@ -13,12 +21,123 @@
     }
 }
 
+@media (max-width: 1250px) {
+    .header__nav {
+        display: none;
+    }
+    .header__logo-img {
+        position: relative;
+        top: 50%;
+    }
+}
+
 @media (min-width: 739px) and (max-width: 1023px) {
-    
+    .footer__background {
+        padding-top: 130%;
+    }
+
+    .footer__top {
+        text-align: center;
+        top: 8%;
+    }
+
+    .footer__heading {
+        float: none;
+    }
+
+    .footer__container {
+        top: 28%;
+        width: 70%;
+    }
+
+    .footer__banner {
+        bottom: -8%;
+    }
+
+    .banner-fullsc {
+        padding-top: 40%;
+    }
+
+    .banner-fullsc-heading {
+        left: 10%;
+        top: 30%;
+        transform: translate(-10%, -30%);
+    }
+
+    .banner-fullsc-link {
+        right: 29%;
+        top: 80%;
+        transform: translateY(-29%,-70%);
+    }
 }
 
 @media (max-width: 739px) {
     .tour-img {
         padding-top: 100%;
     }
+
+    #header__background {
+        padding-top: 100%;
+        background-size: cover;
+    }
+
+    .wrap__content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .wrap__content-text, .wrap__content-text-2 {
+        display: none;
+    }
+
+    .wrap__content-search {
+        width: 80%;
+    }
+
+    .banner-fullsc {
+        padding-top: 90%;
+    }
+
+    .banner-fullsc-heading {
+        font-size: 1.4rem;
+        left: 29%;
+        top: 25%;
+        transform: translate(-30%, -25%);
+        z-index: 10;
+    }
+
+    .banner-fullsc-heading-2>u {
+        margin-top: 42px;
+        display: block;
+    }
+
+    .banner-fullsc-heading-2>u::before {
+        bottom: -13px;
+    }
+
+    .banner-fullsc-link {
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -80%);
+        width: 70%;
+        text-align: center;
+    }
+
+    .tour {
+        margin-left: 16px;
+    }
+
+    .banner__img {
+        padding-top: 70%;
+    }
+
+    .banner__decrepiton {
+        width: 100%;
+    }
+    .tour__option {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
 }
